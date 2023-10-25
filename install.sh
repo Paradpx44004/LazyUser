@@ -51,7 +51,7 @@ for package in "${dependencies[@]}"; do
         echo -e "\n[${verde}*${reset}]${amarelo} $package ${verde}está instalado.${reset}"
     else
         ## Fazendo a instalação do pacote
-        echo -e "\n[${verde}*${reset}] ${verde}Instalando -->${amarelo} $package... ${reset}"
+        echo -e "\n[${amarelo}-${reset}] ${verde}Instalando -->${amarelo} $package... ${reset}"
         # Comando de instalação dos pacotes
         apt-get install -y "$package"
         # Verifique se a instalação foi bem-sucedida
@@ -67,7 +67,7 @@ git clone https://github.com/Paradpx44004/LazyUser
 verificar_sucesso
 python3 LazyUser/install.py 
 #rm -rf LazyUser
-echo -e "\n[${verde}*${reset}] Tudo foi concluído com sucesso!"
+echo -e "\n[${verde}✔${reset}] Tudo foi concluído com sucesso!"
 exit
 
 ###wget -O script.sh https://raw.githubusercontent.com/usuario/repositorio/master/script.sh && chmod +x script.sh && ./script.sh
