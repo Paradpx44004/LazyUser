@@ -66,7 +66,7 @@ git clone https://github.com/Paradpx44004/LazyUser
 # Verifique se a clonagem foi bem-sucedida
 verificar_sucesso
 python3 LazyUser/install.py 
-rm -rf LazyUser
+#rm -rf LazyUser
 echo -e "\n[${verde}*${reset}] Tudo foi concluído com sucesso!"
 exit
 
