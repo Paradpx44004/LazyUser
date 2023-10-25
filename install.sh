@@ -60,7 +60,7 @@ for package in "${dependencies[@]}"; do
 done
 
 # Clona o repositório LazyUser e executa install.py
-echo -e "\n[${amarelo}-${reset}]${ciano} Clonando o repositório ${amarelo}'LazyUser'${verde} e executando ${amarelo}'install.py'${verde}...${reset}"
+echo -e "\n[${amarelo}-${reset}]${ciano} Clonando o repositório ${amarelo}'LazyUser'${verde} ${ciano}e executando ${amarelo}'install.py'${verde}...${reset}"
 git clone https://github.com/Paradpx44004/LazyUser
 
 # Verifique se a clonagem foi bem-sucedida
