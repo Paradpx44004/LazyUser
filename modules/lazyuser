@@ -1,0 +1,21 @@
+#!/bin/bash
+#    _____________________________________________________
+# +=[ BY: AstralSecHaxor from BRAZIL :)              
+# +=[ Version: 1.0 - beta                                 
+# +=[ YouTube: https://youtube.com/@AstralSec_Haxor       
+# +=[ Github: https://github.com/AstralSecHaxor/LazyUser  
+#    —————————————————————————————————————————————————————
+
+if [ "$(uname -o | tr '[:upper:]' '[:lower:]')" == "android" ]; then
+  conf_dir="/data/data/com.termux/files/usr/etc"
+else
+  conf_dir="/etc"
+fi
+
+if [ -e /usr/lib/sudo ]; then
+  sudo python3 "$conf_dir/LazyUser/lazyuser.py"
+else
+  python3 "$conf_dir/LazyUser/lazyuser.py"
+fi
+
+exit
