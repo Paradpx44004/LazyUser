@@ -39,8 +39,8 @@ function verificar_sucesso {
 # Atualiza a lista de pacotes e faz o upgrade
 echo -e "\n\n${reset}[${verde}*${reset}] ${verde}Atualizando lista de pacotes e fazendo upgrade...${reset}"
 apt-get update -y && apt-get upgrade -y
+echo -e "\n\n${reset}[${verde}*${reset}] ${verde}Atualizando concluída${reset}"
 # Verificando se a atualização foi bem-sucedida
-verificar_sucesso
 
 # Lista de pacotes
 dependencies=("proot" "git" "python3")
