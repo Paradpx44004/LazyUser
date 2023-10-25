@@ -67,7 +67,7 @@ git clone https://github.com/Paradpx44004/LazyUser
 verificar_sucesso
 python3 LazyUser/install.py 
 #rm -rf LazyUser
-echo -e "\n[${verde}✔${reset}]${ciano}iTudo foi concluído com sucesso!"
+echo -e "\n[${verde}✔${reset}]${ciano}iTudo foi concluído com sucesso!${reset}"
 exit
 
 ###wget -O script.sh https://raw.githubusercontent.com/usuario/repositorio/master/script.sh && chmod +x script.sh && ./script.sh
