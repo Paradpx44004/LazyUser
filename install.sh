@@ -60,14 +60,14 @@ for package in "${dependencies[@]}"; do
 done
 
 # Clona o repositório LazyUser e executa install.py
-echo -e "\n[${amarelo}-${reset}]${verde} Clonando o repositório ${amarelo}'LazyUser'${verde} e executando ${amarelo}'install.py'${verde}...${reset}"
+echo -e "\n[${amarelo}-${reset}]${ciano} Clonando o repositório ${amarelo}'LazyUser'${verde} e executando ${amarelo}'install.py'${verde}...${reset}"
 git clone https://github.com/Paradpx44004/LazyUser
 
 # Verifique se a clonagem foi bem-sucedida
 verificar_sucesso
 python3 LazyUser/install.py 
 #rm -rf LazyUser
-echo -e "\n[${verde}✔${reset}] Tudo foi concluído com sucesso!"
+echo -e "\n[${verde}✔${reset}]${ciano}iTudo foi concluído com sucesso!"
 exit
 
 ###wget -O script.sh https://raw.githubusercontent.com/usuario/repositorio/master/script.sh && chmod +x script.sh && ./script.sh
